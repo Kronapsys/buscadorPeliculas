@@ -1,0 +1,10 @@
+.a {
+    border: solid 0.1em red;
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
