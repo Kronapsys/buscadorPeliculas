@@ -6,7 +6,7 @@ let valorId = document.getElementById('buscadorID');
 let key = 'be761d96072c0447097947c70d2686b6';
 let recurso = 'search';
 let criterio = 'movie';
-let base_url = `http://api.themoviedb.org/3/`;
+let base_url = `https://api.themoviedb.org/3/`;
 
 const call = async (url) => {
     let res = await axios.get(url);
